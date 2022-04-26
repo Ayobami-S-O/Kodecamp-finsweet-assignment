@@ -1,0 +1,329 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.right-section{
+    display: flex;
+   }
+
+.logo img{
+    width: 100px;
+  
+}
+
+.right-section ul{
+    list-style: none;
+    display: flex;
+}
+
+.right-section ul li{
+    margin-right: 20px;
+}
+
+.right-section ul li a{
+    text-decoration: none;
+    color: black;
+}
+.icon img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.road-assistance{
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section .navigation{
+    border-right: 2px solid grey;
+}
+
+/* hero-section */
+
+#hero-section{
+    padding: 80Px 0px;
+}
+.flex{
+    display: flex;
+}
+
+#hero-section .text-section{
+    width: 45%;
+}
+
+
+#hero-section .image-section{
+    width: 55%;
+}
+
+#hero-section .image-section{
+    background-image: url(../img/Header\ Image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.text-section h1{
+    font-size: 64px;
+}
+
+.orange-button{
+    background: #ff6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffff;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.time-section{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.time-section img{
+    width: 100%;
+}
+
+.text-section  .clock-box{
+    width: 7%;
+    margin-right: 10px;
+}
+
+.text-section .working-hour{
+    width: 95%;
+}
+
+.open{
+    color: #939191;
+    font-size: 18px;
+}
+
+/* quote-section */
+
+#quote-section{
+    padding: 80px 0px;
+    background: #E2E6E9;
+}
+
+#quote-section .left-point, #quote-section .right-point{
+    width: 50%;
+}
+
+#quote-section ul{
+    list-style: none;
+}
+
+#quote-section ul li{
+    margin-bottom: 20px;
+}
+
+#quote-section .left-point h2{
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-point .image-box img{
+    width: 100%;
+}
+
+#quote-section .left-point .image-box{
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quote-section .left-point .text-box{
+    width: 60%;
+}
+
+#quote-section .left-point .text-box a{
+    text-decoration: none;
+    color: black;
+}
+
+#quote-section .left-point .text-box h5{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#quote-section .right-point h3{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#quote-section .right-point input[type="text"]{
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 2px;
+    border: 0px;
+    outline: none;
+}
+
+
+/* help-section */
+
+#help-section{
+    padding: 80px 0px;
+}
+
+#help-section .left-part, #help-section .right-part{
+    width: 45%;
+    padding: 10px;
+}
+
+
+#help-section .left-part{
+    align-content: center;
+    padding: 5%;
+}
+
+#help-section .left-part h2{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+#help-section .right-part h2{
+    background: #661CE7;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+   margin-right: 15px;
+   padding: 5px 5px;
+}
+
+#help-section .right-part img{
+    padding: 18px;
+    height: 15vh;
+}
+
+#help-section .right-part h3{
+    font-size: 32px;
+}
+
+#help-section .right-part .quote{
+    font-size: 18px;
+}
+
+/* Service-section */
+
+#service-section{
+    padding: 80px 0px;
+    background: #E2E6E9;
+}
+
+.upper-section .offer{
+    text-align: center;
+    padding: 2% 31%;
+}
+
+.upper-section .offer h6{
+    font-size: 18px;
+}
+
+.upper-section .offer h2{
+    font-size: 36px;
+}
+
+.lower-section .diagnostics{
+    /* background-image: url(../img/Rectangle\ 15.png); */
+    width: 150px;
+    height: 100px;
+    right: 600px;
+    left: 1800px;
+   background-color: #fff;
+   text-align: center;
+   padding-top: 30px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+}
+
+.lower-section .Wheel-repair{
+    width: 150px;
+    height: 100px;
+    right: 600px;
+    left: 1800px;
+   background-color: #ff6433;
+   text-align: center;
+   padding-top: 30px;
+   margin-right: 5px;
+   color: #fff;
+}
+
+.lower-section .Wheel-repair img{
+    width: 25px;
+    height: 25px;   
+}
+
+.lower-section .diagnostics img{
+    width: 25px;
+    height: 25px;
+}
+
+#service-section .lower-section{
+   align-content: center;
+   padding: 2% 30%;
+}
+
+#service-section .Third-section {
+   padding: 0% 10% 0% 55%;
+   font-size: 20px;
+   margin-bottom: 50px;
+ }
+
+ #service-section .Third-section img{
+     margin-left: 20px;
+ }
+
+ #service-section .query-section img{
+     width: 100%;
+     height:20%;
+     margin-bottom: 20px;
+ }
+
+ #service-section .query h2{
+color: #661CE7;
+font-size: 38px;
+font-family: Manrope;
+ }
+
+ #service-section .query{
+    text-align: center;
+     margin-right: 20px;
+     width: 80%;
+    }
+
+
+    /* Brand-section */
+#brands {
+    padding: 80px 0px;
+    background: #fafafa;
+}
+
+#brands .Title h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+#brands .brands-logo{
+padding: 0% 10%;
+}
