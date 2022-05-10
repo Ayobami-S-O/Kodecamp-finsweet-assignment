@@ -527,11 +527,48 @@ margin-bottom: 20px;
 }
 
 #footer-section .right-section ul li a, #footer-section .right-section .inner-contact p{
-    font-size: 12px;
+    font-size: 14px;
     font-family: Manrope;
     font-weight: 600;
     color: #939191;
-    margin-left: 40px;
+    margin-left: 20px;
+
+}
+
+
+/* Mobile view */
+@media(max-width:426px){
+    .main-header{
+        flex-direction: column;
+    }
+
+    .right-section .navigation{
+        flex-direction: column;
+        border-right: 0px;
+    }
+    .main-header .right-section .flex{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .right-section ul li{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .main-header .road-assistance{
+        display: none;
+    }
+
+
+    /* About section */
+    #about-section .about-us{
+        flex-direction: column;
+    }
+
+    #about-section .about-us .about-image img{
+        /* width: 100%; */
+    }
 
 }
     
