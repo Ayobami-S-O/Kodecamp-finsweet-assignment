@@ -567,8 +567,141 @@ margin-bottom: 20px;
     }
 
     #about-section .about-us .about-image img{
-        /* width: 100%; */
+        width: 350px;
+        height: 200px;
+        margin-bottom: 20px;
     }
 
+    #about-section .about-us .about-text{
+        width: 100%;
+    }
+
+    #about-section .about-us .about-text p{
+        font-size: 25px;
+    }
+
+    .orange-button{
+        font-size: 22px;
+        margin-top: 15px;
+    }
+
+
+    /* Expert section */
+
+    #expert-section .expert-service{
+        flex-direction: column;
+    }
+
+    #expert-section .expert-service .expert-text{
+        width: 100%;
+    }
+
+    #expert-section .expert-service .expert-text h1{
+        font-size: 32px;
+        /* text-align: center; */
+    }
+    #expert-section .expert-service .expert-text .expert-offer .quote p{
+        width: 100%;
+        font-size: 20px;
+    }
+    
+#expert-section .expert-service .expert-image img{
+    margin-top: 20px;
 }
+
+/* Mission section */
+#mission-statement .mission-box{
+    flex-direction: column;
+}
+
+#mission-statement .mission-box h4{
+    font-size: 28px;
+}
+
+#mission-statement .mission-box p{
+    font-size: 20px;
+    width: 90%;
+}
+
+/* Feature section */
+#feature-section .feature-block .feature-headline{
+    padding: 0px;
+}
+
+#feature-section .feature-block .feature-headline h2{
+    font-size: 32px;
+}
+
+#feature-section .feature-block .feature-box{
+    flex-direction: column;
+}
+
+#feature-section .feature-block .feature-box .service-box img{
+    width: 80px;
+   height: 60px;
+}
+
+#feature-section .feature-block .feature-box .service-box h4{
+    font-size: 25px;
+}
+
+#feature-section .feature-highlight .query p{
+    font-size: 14px;
+}
+
+#feature-section .feature-highlight{
+    padding: 0px;
+    margin-top: 10px;
+}
+#feature-section .feature-highlight .query h2{
+    font-size: 22px;
+}
+
+/* Contact section */
+#contact-section .upper-contact{
+    flex-direction: column;
+}
+
+#contact-section .upper-contact .left-contact, #contact-section .contact-box .upper-contact .mid-contact, #contact-section .contact-box .upper-contact .right-contact{
+    width: 100%;
+}
+
+#contact-section .mid-section .mid-contact-box{
+    height: auto;
+}
+
+#contact-section .mid-section .mid-contact-box{
+    flex-direction: column;
+}
+
+
+#contact-section .mid-section .mid-contact-box .left-contact-box h3{
+    width: 100%;
+    font-size: 32px;
+}
+
+#contact-section .mid-section .right-contact-box p{
+    font-size: 18px;
+}
+
+#footer-section .footer{
+    flex-direction: column;
+}
+
+.right-section ul li{
+    margin-right: 0px;
+}
+
+#footer-section .footer .right-section{
+    flex-direction: column;
+}
+
+#footer-section .right-section .inner-contact p{
+    margin-top: 10px;
+}
+}
+
+
+
+
     
