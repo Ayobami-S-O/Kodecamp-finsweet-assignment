@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.right-section{
+    display: flex;
+   }
+
+.logo img{
+    width: 100px;
+  
+}
+
+.right-section ul{
+    list-style: none;
+    display: flex;
+}
+
+.right-section ul li{
+    margin-right: 20px;
+}
+
+.right-section ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.road-assistance{
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section .navigation{
+    border-right: 2px solid grey;
+}
+
+
+#header-section{
+    padding: 80px 0px;
+}
+
+.flex{
+    display: flex;
+}
+
+#header-section .header-box{
+    width: 100%;
+    min-height: 80vh;
+}
+
+#header-section .header-box .header-image{
+    width: 100%;
+    background: url(../img/Header\ service\ Image.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#header-section .header-box .header-text{
+    width: 100%;
+    background: #1E1B1B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+}
+
+#header-section .header-box .header-text h1{
+    font-size: 48px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    color: #F2F2F2;
+    margin-bottom: 20px;
+}
+
+#header-section .header-box .header-text p{
+    font-size: 14px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    color: #F2F2F2; 
+    width: 80%;
+}
+
+
+#header-section .header-box .header-text .orange-button{
+    background: #ff6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffff;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+
+#diagnostic-section{
+    padding: 80px 0px;
+    min-height: 100vh;
+    background: #F5F5F5;
+}
+
+
+#diagnostic-section .diagnostic-box {
+    justify-content: space-between;
+}
+#diagnostic-section .left-diagnostic{
+    width: 40%;
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+#diagnostic-section  .left-diagnostic img{
+    width: 350px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+#diagnostic-section  .left-diagnostic .auto-diagnostic h3{
+    font-size: 32px;
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: normal;
+    color: #232536;
+    margin-bottom: 20px;
+}
+
+#diagnostic-section .diagnostic-box   .auto-diagnostic p{
+    font-size: 15px;
+    font-family: Manrope;
+    font-weight: 600;
+    font-style: normal;
+    color: #232536;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+#diagnostic-section .diagnostic-box .service-detail a{
+    text-decoration: none;
+    display: flex;
+}
+
+#diagnostic-section .diagnostic-box .service-detail h6{
+    font-size: 12px;
+    font-family: Manrope;
+    font-weight: 600;
+    font-style: normal;
+    color: #232536;
+    margin-right: 10px;
+}
+
+#diagnostic-section .diagnostic-box .service-detail img{
+    width: 30px;
+    height: 10px;
+}
+
+#diagnostic-section .right-diagnostic{
+    width: 58%;
+}
+
+
+#diagnostic-section .right-diagnostic .right-diagnostic-box{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#diagnostic-section .right-diagnostic .right-diagnostic-box .diagnostic-item{
+background: #ff6433;
+width: 150px;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-right: 10px;
+}
+
+
+#diagnostic-section .right-diagnostic .right-diagnostic-box .diagnostic-item img{
+    width: 25px;
+    height: 40px;
+    align-items: center;
+}
+
+#diagnostic-section .right-diagnostic .right-diagnostic-box .diagnostic-item p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+}
